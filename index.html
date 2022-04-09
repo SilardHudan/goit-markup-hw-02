@@ -16,24 +16,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
         <body>
     <header class="header">
-        <a class="logo link" lang="en" href=""><span class="logo-second link">Web</span>Studio</a>
+        <a class="header-logo link" lang="en" href=""><span class="header-logo-second link">Web</span>Studio</a>
         <nav class="header-navgation">
-            <ul class='header-list list'>
-                <li class="header-item"><a class="header-link link" href="">Студия</a></li>
-                <li class="header-item"><a class="header-link link" href="./portfolio/index.html">Портфолио</a></li>
-                <li class="header-item"><a class="header-link link" href="#contacts">Контакты</a></li>
+            <ul class='first-header-list list'>
+                <li class="header-item"><a class="header-link-first link" href="./index.html">Студия</a></li>
+                <li class="header-item"><a class="header-link-second link" href="./portfolio/index.html">Портфолио</a></li>
+                <li class="header-item"><a class="header-link-second link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class='second-header-list list'>
+           <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+           <li><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
         <section class="first-main-section">
             <h1 class="first-main-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="first-main-button" type="button">Заказать услугу</button>
+            <button class="first-main-button">Заказать услугу</button>
         </section>
         <section class="second-main-section">
             <ul class="second-main-list list">
@@ -89,11 +91,13 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a class="logo link" lang="en" href=""><span class="logo-second link">Web</span>Studio</a>
-        <address id="contacts">г. Киев, пр-т Леси Украинки, 26</address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+    <footer class="footer">
+        <a class="footer-logo link" lang="en" href=""><span class="footer-logo-second link">Web</span>Studio</a>
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="footer-list list">
+            <li><a class="footer-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="footer-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </footer>
 </body>
 
