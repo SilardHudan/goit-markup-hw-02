@@ -262,3 +262,6 @@ body {
 .portfolio-second-main-list-group {
     background: #FFFFFF;
 }
+.visually-hidden {
+    visibility: hidden;
+}
